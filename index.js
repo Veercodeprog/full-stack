@@ -217,7 +217,7 @@ var authenticateToken = (req, res, next) => {
         }
     });
 };
-// leaving as hard todos
+// pipeline check
 // Create a route that lets an admin add a new problem
 // ensure that only admins can do that.
 const checkAdmin = (req, res, next) => {
